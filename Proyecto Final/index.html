@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Loanday Template">
+    <meta name="keywords" content="Loanday, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loanday | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bulma.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <ul class="header__top__widget">
+                            <li><i class="fa fa-map-marker"></i> 96 Ernser Vista Suite 437, NY, US</li>
+                            <li><i class="fa fa-phone"></i> (123) 456-78-910</li>
+                            <li><i class="fa fa-envelope"></i> Info@colorlib.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="header__nav">
+                        <nav class="header__menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Home</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./services.html">Services</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero set-bg" data-setbg="img/hero-bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="hero__text">
+                    <h2>Un préstamo a tu medida</h2>
+                    <p>Solicitá un préstamo de hasta $1.000.000 en 12, 18, 24, 36 y 48 cuotas fijas</p>
+                  </div>
+              </div>
+            <div class="col-lg-6 offset-lg-2">
+            <div class="wrapper">
+              <div class="left">  
+                <img src="https://i.imgur.com/eN4AKys.png" alt="Rocket_image">
+              </div>
+            
+            <div class="right">
+              
+              <div class="tabs">
+                <ul>
+                  <li class="register_li">Registro</li>
+                  <li class="login_li">Login</li>
+                </ul>
+              </div>
+    
+          <div class="register">
+            <div class="input_field">
+              <input id="username" type="text" placeholder="Usuario" class="input">
+              <span class="errorMsg" id="errorusername">*Ingrese un nombre de usuario válido.</span>
+            </div>
+            <div class="input_field">
+              <input id="emailid" type="text" placeholder="E-mail" class="input">
+              <span class="errorMsg" id="erroremail">*Ingrese un e-mail válido.</span>
+            </div>
+            <div class="input_field">
+              <input id="userpassword" type="password" placeholder="Contraseña" class="input">
+              <span class="errorMsg" id="errorpassword" >*La contraseña debe contener 8 caracteres y al menos un número.</span>
+            </div>
+            <button id="submitform" type="submit" class="site-btn">Enviar</button> 
+          </div>
+          
+          <div class="login">
+            <div class="input_field">
+              <input type="text" placeholder="E-mail" class="input">
+            </div>
+            <div class="input_field">
+              <input type="password" placeholder="Contraseña" class="input">
+            </div>
+            <div class="btn"><a href="#">Login</a></div>
+          </div>
+    
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+  </section>
+    <!-- Hero Section End -->
+
+    <!-- Home About Begin -->
+    <section class="home-about spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="home__about__text">
+                        <div class="section-title">
+                            <h2>Thousands Of Customers Trust Our Company</h2>
+                            <p>The brochure must grab a viewer’s attention and hold it long enough to deliver the
+                                pertinent information. How do you grab your customers’ attention with just a piece</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="home__about__item">
+                                    <h4>Our Company</h4>
+                                    <p>You could try by giving the viewer paper cut, but that’s not the kind of
+                                        attention</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="home__about__item">
+                                    <h4>Our Vision</h4>
+                                    <p>The brochure must grab a viewer’s attention and hold it long enough to</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="home__about__img">
+                        <img src="img/about/home-about.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home About End -->
+
+    <!-- Loan Calculator -->
+    <section class="section">
+      <div class="container">
+        <div class="content">
+          <h1>Simulador de Préstamos</h1>
+          <p>
+            (Este simulador sirve solo a base de ejemplo y de ninguna manera constituye un compromiso de oferta por parte de Rocket Cash S.A.)
+          </p>
+        </div>
+
+        <div class="columns">
+          <div class="column is-three-quarters">
+            <div class="card">
+              <div class="card-content">
+                <form id="loan-form">
+                  <div class="level">
+                    <!-- Left side -->
+                    <div class="level-left is-marginless">
+                      <div class="level-item">
+                        <p class="number">1</p>
+                        Monto del Préstamo
+                      </div>
+                    </div>
+
+                    <!-- Right side -->
+                    <div class="level-right">
+                      <div class="level-item">
+                        <div class="field">
+                          <div class="control has-icons-left ">
+                            <input class="input" id="amount" type="number" />
+                            <span class="icon is-small is-left">
+                              <i class="fa fa-dollar-sign"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="level">
+                    <!-- Left side -->
+                    <div class="level-left is-marginless">
+                      <div class="level-item">
+                        <p class="number">2</p>
+                        Intereses
+                      </div>
+                    </div>
+
+                    <!-- Right side -->
+                    <div class="level-right">
+                      <div class="level-item">
+                        <div class="field">
+                          <div class="control has-icons-left">
+                            <input class="input" id="interest" type="number" />
+                            <span class="icon is-small is-left">
+                              <i class="fa fa-percentage"></i>
+                              
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="level">
+                    <!-- Left side -->
+                    <div class="level-left is-marginless">
+                      <div class="level-item">
+                        <p class="number">3</p>
+                        Años a Pagar
+                      </div>
+                    </div>
+
+                    <!-- Right side -->
+                    <div class="level-right">
+                      <div class="level-item">
+                        <div class="field">
+                          <div class="control has-icons-left">
+                            <input class="input" id="years" type="number" />
+                            <span class="icon is-small is-left">
+                              <i class="fa fa-calendar"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="control">
+                    <button
+                      class="button is-large is-fullwidth is-primary is-outlined"
+                    >
+                      Calcular
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="section"> 
+        <div class="container">
+          
+          <h2 class="title ">Sus Resultados</h2>
+            <div class="columns is-multiline">
+                <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+                    <div class="notification is-primary has-text">
+                      <p id="monthlyPayment" class="title is-1">$</p>
+                      <p class="subtitle is-4">Pago Mensual</p>
+                    </div>
+                </div>
+
+                <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+                    <div class="notification is-info has-text">
+                      <p id="totalInterest" class="title is-1">$</p>
+                      <p class="subtitle is-4">Total de Intereses</p>
+                    </div>
+                </div>
+
+                <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+                    <div class="notification is-link has-text">
+                      <p id="totalPayment" class="title is-1">$</p>
+                      <p class="subtitle is-4">Monto Total</p>
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+    </section>
+
+    <!-- USD Convert -->
+
+    <section class="section">
+      <div class="container">
+        
+              
+              <h3 class="title">Tu préstamos en dólares.</h3>
+              
+              <button id="dolar" class="button is-normal is-primary is-outlined"> Consultá la cotización! </button>
+              <div id="cotizacion" class="columns is-multiline"></div>
+           </div>
+       
+    </div>
+  </section>
+  
+    <!-- USD Convert End -->
+
+    <!-- Loan Services Section Begin -->
+    <section class="loan-services spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Discover all the loans for you</h2>
+                        <p>If you try to cut corners on your brochure you will end up spending more money</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="loan__services__list">
+                <div class="loan__services__item set-bg" data-setbg="img/loan-services/ls-1.jpg">
+                    <div class="loan__services__item__text">
+                        <h4><span>01.</span> Personal Loan</h4>
+                        <p>But that’s not the kind of attention you want, is it?</p>
+                        <a href="#">Find Out More</a>
+                    </div>
+                </div>
+                <div class="loan__services__item set-bg" data-setbg="img/loan-services/ls-2.jpg">
+                    <div class="loan__services__item__text">
+                        <h4><span>02.</span> Business Loan</h4>
+                        <p>But that’s not the kind of attention you want, is it?</p>
+                        <a href="#">Find Out More</a>
+                    </div>
+                </div>
+                <div class="loan__services__item set-bg" data-setbg="img/loan-services/ls-3.jpg">
+                    <div class="loan__services__item__text">
+                        <h4><span>03.</span> Education Loan</h4>
+                        <p>But that’s not the kind of attention you want, is it?</p>
+                        <a href="#">Find Out More</a>
+                    </div>
+                </div>
+                <div class="loan__services__item set-bg" data-setbg="img/loan-services/ls-4.jpg">
+                    <div class="loan__services__item__text">
+                        <h4><span>04.</span> Commercial Loan</h4>
+                        <p>But that’s not the kind of attention you want, is it?</p>
+                        <a href="#">Find Out More</a>
+                    </div>
+                </div>
+                <div class="loan__services__item set-bg" data-setbg="img/loan-services/ls-5.jpg">
+                    <div class="loan__services__item__text">
+                        <h4><span>05.</span> Health Loan</h4>
+                        <p>But that’s not the kind of attention you want, is it?</p>
+                        <a href="#">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Loan Services Section End -->
+
+    <!-- Choose Section Begin -->
+    <section class="choose spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Why People Choose Us</h2>
+                        <p>This question should make the viewer want to open the brochure to learn more.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="choose__item">
+                        <img src="img/choose/choose-1.png" alt="">
+                        <h5>Quick & Easy</h5>
+                        <p>Typography should be relevant and thought out. Type is so strong that it can</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="choose__item">
+                        <img src="img/choose/choose-2.png" alt="">
+                        <h5>Absolute Security</h5>
+                        <p>Typography should be relevant and thought out. Type is so strong that it can</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="choose__item">
+                        <img src="img/choose/choose-3.png" alt="">
+                        <h5>Quick Approval</h5>
+                        <p>Typography should be relevant and thought out. Type is so strong that it can</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="choose__item">
+                        <img src="img/choose/choose-4.png" alt="">
+                        <h5>Low Interest Rates</h5>
+                        <p>Typography should be relevant and thought out. Type is so strong that it can</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="choose__item">
+                        <img src="img/choose/choose-5.png" alt="">
+                        <h5>Personal Security</h5>
+                        <p>Typography should be relevant and thought out. Type is so strong that it can</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="choose__item">
+                        <img src="img/choose/choose-6.png" alt="">
+                        <h5>Disbursement Day</h5>
+                        <p>Typography should be relevant and thought out. Type is so strong that it can</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Choose Section End -->
+
+    
+
+    <!-- Counter Begin -->
+    <div class="counter spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counter__item">
+                        <img src="img/counter/counter-1.png" alt="">
+                        <div class="counter__number counter__p">
+                            <h2 class="counter-add">2100</h2>
+                        </div>
+                        <p>Successful Loan Approval</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counter__item">
+                        <img src="img/counter/counter-2.png" alt="">
+                        <div class="counter__number">
+                            <h2 class="counter-add">99</h2>
+                            <span>%</span>
+                        </div>
+                        <p>Customer Satisfection</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counter__item">
+                        <img src="img/counter/counter-3.png" alt="">
+                        <div class="counter__number">
+                            <h2 class="counter-add">90</h2>
+                            <span>+</span>
+                        </div>
+                        <p>Office National Partners</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counter__item">
+                        <img src="img/counter/counter-4.png" alt="">
+                        <div class="counter__number">
+                            <h2 class="counter-add">70</h2>
+                            <span>+</span>
+                        </div>
+                        <p>Award Certificate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Counter End -->
+
+    <!-- Blog Section Begin -->
+    <section class="latest spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Latest Post</h2>
+                        <p>Certainly at that point I was not a potential client for the Strib, but promotional</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="latest__blog__item">
+                        <h5><a href="#">Internet Advertising Trends You</a></h5>
+                        <p>Nope, I had to interview for this job. And I tell you, I was magnificent, so much so that, as
+                            you know, I got the position...</p>
+                        <div class="latest__blog__author">
+                            <div class="latest__blog__author__pic">
+                                <img src="img/latest/lb-1.png" alt="">
+                            </div>
+                            <div class="latest__blog__author__text">
+                                <h6>May Cain</h6>
+                                <span>19th March, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="latest__blog__item">
+                        <h5><a href="#">Internet Advertising Trends You</a></h5>
+                        <p>Nope, I had to interview for this job. And I tell you, I was magnificent, so much so that, as
+                            you know, I got the position...</p>
+                        <div class="latest__blog__author">
+                            <div class="latest__blog__author__pic">
+                                <img src="img/latest/lb-2.png" alt="">
+                            </div>
+                            <div class="latest__blog__author__text">
+                                <h6>May Cain</h6>
+                                <span>19th March, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="latest__blog__item">
+                        <h5><a href="#">Improve Your Business Cards</a></h5>
+                        <p>Upon completion of the interview the gentleman that was to give me my first opportunity at
+                            financial freedom...</p>
+                        <div class="latest__blog__author">
+                            <div class="latest__blog__author__pic">
+                                <img src="img/latest/lb-3.png" alt="">
+                            </div>
+                            <div class="latest__blog__author__text">
+                                <h6>May Cain</h6>
+                                <span>19th March, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="./index.html"><img src="img/footer-logo.png" alt=""></a>
+                        </div>
+                        <p>Please remember though that how far you go is up to you. There is no substitute for your own
+                            work and effort in succeeding in this business.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h5>Services</h5>
+                        <div class="footer__widget">
+                            <ul>
+                                <li><a href="#">Personal Loans</a></li>
+                                <li><a href="#">Business Loans</a></li>
+                                <li><a href="#">Online Cash Loans</a></li>
+                                <li><a href="#">Cash Advance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h5>Socials</h5>
+                        <div class="footer__widget footer__widget--social">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i> Skype</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+                    <div class="footer__widget footer__widget--address">
+                        <h5>Open Hours</h5>
+                        <p>We work all days a week, Please contact us for any inquiry.</p>
+                        <ul>
+                            <li>Monday - Friday: 11:00 am - 8:00 pm</li>
+                            <li>Saturday: 10:00 am - 6:00 pm</li>
+                            <li>Sunday: 11:00 am - 6:00 pm</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <ul class="footer__copyright__links">
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Community</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <div class="footer__copyright__text">
+                            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                        </div>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
